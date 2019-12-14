@@ -14,7 +14,7 @@
     <!-- 네비 : 하이퍼링크 -->
     <nav  id="nav" class="phone">   
         <div class="menu">  <a href="main1.jsp"> 마이페이지</a> </div>    
-        <div class="menu">  <a href="main2.jsp"> 포인트 벌기</a> </div>    
+        <div class="menu">  <a href="main2.jsp">0 포인트 벌기</a> </div>    
         <div class="menu">  <a href="main3.jsp"> 의뢰 </a> </div>    
         <div class="menu">  <a href="main4.jsp"> 의뢰현황 </a> </div>     
     </nav >
