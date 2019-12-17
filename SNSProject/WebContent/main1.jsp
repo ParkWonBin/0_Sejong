@@ -1,14 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-    <title>SNS 품앗이 v0.01</title>
-    <link rel="stylesheet" href="main.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, 
-    maximum-scale=1.0, minimum-scale=1.0">
 
-</head>
+<html lang="ko">
+
+<!--해드 -->
+<%@ include file= "htmltegs/head.jsp" %>
+
 <body>
 
     <!--해더 -->
@@ -21,7 +18,7 @@
         <!-- Section : 내부에 article 있음-->
         <section id="section" class="phone" >   
 
-            <article id="article">
+            <article id="article" >
 
                 <div class="MyPageBox">
                     <table class="Profile">
@@ -50,6 +47,7 @@
                 <div class="MyPageBox"> <h3>실시간 문의</h3> </div>
                 <div class="MyPageBox"> <h3>친구에게 공유</h3> </div>
                 <div class="MyPageBox"> <a href="main0.jsp"> <h3>로그아웃</h3> </a> </div>
+                
 
             </article>
 
@@ -57,6 +55,5 @@
     <!-- 푸터 -->
     <%@ include file= "htmltegs/footer.jsp" %>
     
-    <script> resize(); </script>
 </body>
 </html>

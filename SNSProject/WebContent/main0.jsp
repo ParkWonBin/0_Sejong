@@ -1,18 +1,24 @@
-
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <title>SNS 품앗이 v0.01</title>
-    <link rel="stylesheet" href="main.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, 
-    maximum-scale=1.0, minimum-scale=1.0">
-    
-</head>
+
+<!--해드 -->
+<%@ include file= "htmltegs/head.jsp" %>
+
 <body>
 
+    <!--해더 -->
+    <%@ include file= "htmltegs/header.jsp" %>
+    
+        <!-- Section : 내부에 article 있음-->
+        <section id="section" class="phone" >   
+
+
+            <article id="article">
+            
+                <div class="loginBox_Photo">
+                   <img  src="https://placeimg.com/150/150/any" >
 
                 </div>
                 

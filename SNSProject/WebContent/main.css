@@ -2,12 +2,13 @@
 /* =========================================================== */
 /* 공통 */
     *{      text-decoration: none; margin: 0 auto;}          
-    body{   background-color: black; text-align: center;}
+    html,body{background-color: black; text-align: center;  overflow:hidden; position: absolute; height: 100%;}
     p{      text-align: left; }
     #header{background-color:#e0e0e0;  font-size: 15px;  
             height: 40px; line-height: 40px; text-align: center; }
 
 /*방문한 하이퍼링크 색갈 바뀌는거 없애기*/
+	a{ color: black; text-decoration: none;}
     a:visited { color: black; text-decoration: none;}
 
 /* 네비, 메뉴  */
@@ -18,11 +19,11 @@
 
 /* 섹션 */
     /* 가운데 정렬 */
-    #section{ padding-top: 1px; text-align: center;height: 90%;}
+    #section{ padding-top: 1px; text-align: center;height: 100%;}
     /* 설명 문구 */
     .topBox{ display: inline-block; margin: 4px auto; border: 2px solid gray; padding: 5px; width: 80%; ; overflow:hidden; text-align: center; width: 95%;}
     /* 내용 들어갈 자리 */
-    #article{display: inline-block; }
+    #article{display: inline-block; height:100%}
   
 /* 푸터  */
     #footer{  background-color: #383838; font-size: 12px; text-align: center; color:white}

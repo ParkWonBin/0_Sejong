@@ -1,31 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-    <title>SNS 품앗이 v0.01</title>
-    <link rel="stylesheet" href="main.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, 
-    maximum-scale=1.0, minimum-scale=1.0">
 
-    <script> 
-        function resize () {
-                console.log('Resizing...');
-                console.log(window.innerWidth);
-                
-                var win = window.innerWidth;
-                var rate = 0.36*(win-940) + 300;
-                var count = document.getElementsByClassName("leftBox").length;
-                console.log(count);
-                if (window.innerWidth<940){
-                    for(var i=0; i<count; i++){
-                        document.getElementsByClassName("leftBox")[i].style.width=rate+"px";
-                        document.getElementsByClassName("leftBox")[i].style.height=rate+"px";}
-                    }
-        }
-        window.addEventListener('resize',function () { resize()}, true);
-    </script>
-</head>
+<html lang="ko">
+
+<!--해드 -->
+<%@ include file= "htmltegs/head.jsp" %>
+
 <body>
     <!--해더 -->
     <%@ include file= "htmltegs/header.jsp" %>
@@ -43,7 +23,7 @@
         </nav >
         <!-- Section : 내부에 article 있음-->
         <section id="section" class="phone" >   
-
+<article>
     <%@ include file= "htmltegs/Qtable.jsp" %>
     <%@ include file= "htmltegs/Qtable.jsp" %>
     <%@ include file= "htmltegs/Qtable.jsp" %>
@@ -63,7 +43,6 @@
     <!-- 푸터 -->
     <%@ include file= "htmltegs/footer.jsp" %>
 
-    
-    <script>resize();</script>
+    <script>resize("leftBox");</script>
 </body>
 </html>
