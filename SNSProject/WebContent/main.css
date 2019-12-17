@@ -2,16 +2,19 @@
 /* =========================================================== */
 /* 공통 */
     *{      text-decoration: none; margin: 0 auto;}          
-    body{   background-color: black; }
+    body{   background-color: black; text-align: center;}
     p{      text-align: left; }
     #header{background-color:#e0e0e0;  font-size: 15px;  
             height: 40px; line-height: 40px; text-align: center; }
 
+/*방문한 하이퍼링크 색갈 바뀌는거 없애기*/
+    a:visited { color: black; text-decoration: none;}
+
 /* 네비, 메뉴  */
     #nav{   background-color: white; font-size: 13px;  height: 21px;  text-align: center; padding: 10px 0; 
             border-top: 1px solid lightgray; border-bottom: 1px solid lightgray;}
-    .menu { display: inline-block; padding: 2px 5px; width: 100px;}
-    .menu_active {display: inline-block; padding-bottom: 11px; border-bottom: 2px solid black; width: 100px;}      
+    .menu {width: 100px;}
+    .menu_active { padding-bottom: 10px; border-bottom: 2px solid black; width: 100px; font-weight:bold;}      
 
 /* 섹션 */
     /* 가운데 정렬 */
@@ -19,10 +22,8 @@
     /* 설명 문구 */
     .topBox{ display: inline-block; margin: 4px auto; border: 2px solid gray; padding: 5px; width: 80%; ; overflow:hidden; text-align: center; width: 95%;}
     /* 내용 들어갈 자리 */
-    #article{display: inline-block;}
-    /* 내용 */
-    .leftBox{ background-color: gray; padding: 20px; width: 269px; height: 269px; display: inline-block; margin-bottom: 5px;}
-
+    #article{display: inline-block; }
+  
 /* 푸터  */
     #footer{  background-color: #383838; font-size: 12px; text-align: center; color:white}
 
@@ -42,26 +43,35 @@
     .phone{ width: 950px; margin: auto; background-color: white;}
 
     @media screen and (max-width: 940px){
-        .phone{ width: 100%;  background-color: white; padding: 10px;} 
+        .phone{ width: 100%;  } 
         #section{ padding-left: 0px;}
     }
 
 /* =========================================================== */    
-/* 개별 코드 */
+/* 개별 코드(그냥 수정 자주하는 것 모음) */
 
-/* 로그인 창 새로 추가된 부분 */
-    .loginBox{ display: inline-block; margin: 20px auto; border: 2px solid gray; padding: 5px; width: 80%; ; overflow:hidden; text-align: center;}
+/* 내용 */
+  .leftBox{ background-color: gray; width: 269px; height: 269px; display: inline-block; margin-bottom: 5px; overflow: hidden;}
+  .leftBox_img{width: 100%;}
+
+  
+  
+  /* 로그인 창 새로 추가된 부분 */
+  .loginBox{ display: inline-block; margin: 20px auto; border: 2px solid gray; padding: 5px; width: 80%; ; text-align: center;}
+  .loginBox_Photo{ border-radius: 50%; height:150px; width: 150px; margin: 50px 0px; display: inline-block; overflow:hidden;}
 
 /* 의뢰현황 테이블 */
-    .Qtable{ display: inline-block; margin: 5px -4px ; }
-    .Qtable_Photo{ background-color:gray; width: 269px; height: 269px;padding: 20px;}
+    .Qtable{ display: inline-block; font-size: 12px;}
+    .Qtable_Photo{ background-color:gray; width: 100%;; overflow: hidden;}
     .Qtable_left{float: left;}
     .Qtable_right{float: right;}
     .Qtable_bar{ border: 2px solid #383838; background-color: white; height: 10px; margin-top: 10px; margin-left: 120px;}
     .Qtable_bar_inside{width:10%; background-color: #383838; height: 100%; float: left;}
+    
+
 
 /* 프로필 */
-.Profile{width: 90%; display: inline-block;}
-.Profile tr td{width: 100px; font-size: 18px;}
-.Profile_Photo{background-color: gray; border-radius: 150%; height: 150px; width: 150px;}
-.MyPageBox{background-color: lightgray; width: 500px; margin: 10px; padding: 5px;}
+.Profile{margin: auto;}
+.Profile tr td{width: 100px; font-size: 15px;}
+.Profile_Photo{background-color: gray; border-radius: 50%; height: 120px; width: 120px; overflow: hidden;}
+.MyPageBox{background-color: lightgray; width: 90%; margin: 5px; padding: 5px; display: inline-block; }

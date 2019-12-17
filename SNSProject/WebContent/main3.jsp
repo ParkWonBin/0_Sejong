@@ -1,11 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="utf-8">
+<html lang="ko">
 <head>
     <title>SNS 품앗이 v0.01</title>
     <link rel="stylesheet" href="main.css" />
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, 
+    maximum-scale=1.0, minimum-scale=1.0">
+
+
 <!-- 사진 크기 설정 스크립트 -->
     <script> 
         function resize () {
@@ -13,7 +16,7 @@
                 console.log(window.innerWidth);
                 
                 var win = window.innerWidth;
-                var rate = 0.35*(win-940) + 269;
+                var rate = 0.325*(win-940) + 269;
                 var count = document.getElementsByClassName("leftBox").length;
                 console.log(count);
                 if (window.innerWidth<940){
@@ -27,17 +30,20 @@
 
 </head>
 <body>
-    <!-- 해더 : 새로고침 -->
-    <header id="header" class="phone">  
-        <a onClick="window.location.reload()" style="cursor: pointer;">SNS 품앗이 v0.01 </a>
-    </header> 
+    <!--해더 -->
+    <%@ include file= "htmltegs/header.jsp" %>
+    
     <!-- 네비 : 하이퍼링크 -->
     <nav  id="nav" class="phone">   
-        <div class="menu">  <a href="main1.jsp"> 마이페이지</a> </div>    
-        <div class="menu">  <a href="main2.jsp"> 포인트 벌기</a> </div>    
-        <div class="menu_active">  <a href="main3.jsp"> 의뢰 </a> </div>    
-        <div class="menu">  <a href="main4.jsp"> 의뢰현황 </a> </div>    
-    </nav >
+            <table>
+                <tr>
+                    <td class="menu">  <a href="main1.jsp"> 마이페이지</a> </td>    
+                    <td class="menu">  <a href="main2.jsp"> 포인트 벌기</a> </td>    
+                    <td class="menu_active">  <a href="main3.jsp"> 의뢰 </a> </td>    
+                    <td class="menu">  <a href="main4.jsp"> 의뢰현황 </a> </td>     
+                </tr>
+            </table>
+        </nav >
         <!-- Section : 내부에 article 있음-->
         <section id="section" class="phone" >   
 
@@ -50,51 +56,24 @@
                     </h4>  
             </div>
 
-                <div class='leftBox'> 
-                        <h2>What is Lorem Ipsum? </h2>
-                        <h5>Title description, Dec 7, 2017</h5>  
-                </div>
-                <div class='leftBox'> 
-                        <h2>What is Lorem Ipsum? </h2>
-                        <h5>Title description, Dec 7, 2017</h5>  
-                </div>
-                <div class='leftBox'> 
-                        <h2>What is Lorem Ipsum? </h2>
-                        <h5>Title description, Dec 7, 2017</h5>  
-                </div>            
-                <div class='leftBox'> 
-                        <h2>What is Lorem Ipsum? </h2>
-                        <h5>Title description, Dec 7, 2017</h5>  
-                </div>
-                <div class='leftBox'> 
-                        <h2>What is Lorem Ipsum? </h2>
-                        <h5>Title description, Dec 7, 2017</h5>  
-                </div>
-                <div class='leftBox'> 
-                        <h2>What is Lorem Ipsum? </h2>
-                        <h5>Title description, Dec 7, 2017</h5>  
-                </div>      
-                <div class='leftBox'> 
-                        <h2>What is Lorem Ipsum? </h2>
-                        <h5>Title description, Dec 7, 2017</h5>  
-                </div>
-                <div class='leftBox'> 
-                        <h2>What is Lorem Ipsum? </h2>
-                        <h5>Title description, Dec 7, 2017</h5>  
-                </div>
-                <div class='leftBox'> 
-                        <h2>What is Lorem Ipsum? </h2>
-                        <h5>Title description, Dec 7, 2017</h5>  
-                </div>      
+             
+                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+				<span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+				<span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+
             </article>
 
         </section>
-    <!-- 푸터 : 푸터 -->
-    <footer id="footer"class="phone">         
-        <h2>C팀 sns 품앗이</h2> 
-        <p> Company Name  서울시 노량진 어느 학원 <br>
-            사업자등록번호 000-00-00000   전화 000-0000-0000   팩스 00-000-0000</p> 
-    </footer>
+ 
+    <!-- 푸터 -->
+    <%@ include file= "htmltegs/footer.jsp" %>
+
     
     <script>resize();</script>
 </body>
