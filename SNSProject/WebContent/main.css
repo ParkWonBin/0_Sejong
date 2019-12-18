@@ -16,8 +16,8 @@
 /* 네비, 메뉴  */
     #nav{   background-color: white; font-size: 13px;  height: 21px;  text-align: center; padding-bottom: 10px;padding-top:10px ; 
             border-top: 1px solid lightgray; border-bottom: 1px solid lightgray;}
-    .menu { padding-bottom: 11px; width: 25%; overflow: hidden;}
-    .menu_active {display: inline-block; padding-bottom: 11px; border-bottom: 2px solid black; width: 100px;}      
+    .menu { padding-bottom: 5px; width: 25%; overflow: hidden;}
+    .menu_active {display: inline-block; padding-bottom: 10px; border-bottom: 2px solid black; width: 100px; font-weight: bold;}      
 
 /* 섹션 */
     /* 가운데 정렬 */
@@ -60,21 +60,22 @@
   
   
   /* 로그인 창 새로 추가된 부분 */
-  .loginBox{ display: inline-block; margin: 20px auto; border: 2px solid gray; padding: 5px; width: 80%; ; text-align: center;}
+  .loginBox{ display: inline-block; margin: 10px auto; border: 2px solid gray; padding: 5px; width: 80%; ; text-align: center;}
   .loginBox_Photo{ margin: 20px auto; background-color: gray; border-radius: 50%; height: 200px; width: 200px; overflow: hidden;}
 
 /* 의뢰현황 테이블 */
     .Qtable{ display: inline-block;}
-    .Qtable_Photo{ background-color:gray; width: 100%;; overflow: hidden;}
+    .Qtable_Photo{ background-color:gray;}
     .Qtable_left{float: left;}
     .Qtable_right{float: right;}
     .Qtable_bar{ border: 2px solid #383838; background-color: white; height: 10px; margin-top: 10px; margin-left: 120px;}
     .Qtable_bar_inside{width:10%; background-color: #383838; height: 100%; float: left;}
     
-
+/* 빈 여백  */
+.white_space{height:30px}
 
 /* 프로필 */
 .Profile{margin: auto;}
 .Profile tr td{width: 100px; font-size: 15px;}
 .Profile_Photo{background-color: gray; border-radius: 50%; height: 120px; width: 120px; overflow: hidden;}
-.MyPageBox{background-color: lightgray; width: 90%; margin: 5px; padding: 5px; display: inline-block; }
+.MyPageBox{background-color: lightgray; width: 90%; margin: 5px; padding: 10px 5px; display: inline-block; }

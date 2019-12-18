@@ -23,7 +23,13 @@
             </table>
         </nav >
         <!-- Section : 내부에 article 있음-->
-        <section id="section" class="phone" >   
+       <section id="section" class="phone" >   
+	<div class='topBox'> 
+		 <h3>[의뢰현황]</h3>
+		 <h4>현재 진행 중인 <br>의뢰 현황을 조회합니다.
+		 </h4>  
+	</div>
+        
 <article>
     <%@ include file= "htmltegs/Qtable.jsp" %>
     <%@ include file= "htmltegs/Qtable.jsp" %>

@@ -43,6 +43,9 @@
 				<span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
                 <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
                 <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+				<span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
 
             </article>
 

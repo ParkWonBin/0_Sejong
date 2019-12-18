@@ -20,7 +20,10 @@
         <section id="section" class="phone" >   
 
             <article id="article" >
-
+<!-- 여백  -->
+<div class="white_space"></div>
+        
+        
                 <div class="MyPageBox">
                     <table class="Profile">
 
@@ -50,6 +53,11 @@
                 <div class="MyPageBox"> <a href="main0.jsp"> <h3>로그아웃</h3> </a> </div>
                 
 
+        <div class="white_space"></div>
+        <div class="white_space"></div>
+        <div class="white_space"></div>
+        <div class="white_space"></div>
+        <div class="white_space"></div>
             </article>
 
         </section>
