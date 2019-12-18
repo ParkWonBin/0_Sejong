@@ -34,18 +34,18 @@
             </div>
 
              
-                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
-                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
-                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
-				<span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
-                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
-                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
-				<span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
-                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
-                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
-				<span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
-                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
-                <span> <img class='leftBox' src="https://placeimg.com/1080/1080/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
+				<span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
+				<span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
+				<span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
+                <span> <img class='leftBox' src="https://placeimg.com/510/510/any" ></span>
 
             </article>
 

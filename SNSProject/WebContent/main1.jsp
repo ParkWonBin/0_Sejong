@@ -13,13 +13,21 @@
     <%@ include file= "htmltegs/header.jsp" %>
     
     <!-- 네비 : 하이퍼링크 -->
-    <%@ include file= "htmltegs/nav.jsp" %>
+	<nav  id="nav" class="phone">   
+	    <table>
+	        <tr>
+	            <td class="menu_active">  <a href="main1.jsp"> 마이페이지</a> </td>    
+	            <td class="menu">  <a href="main2.jsp"> 포인트 벌기</a> </td>    
+	            <td class="menu">  <a href="main3.jsp"> 의뢰 </a> </td>    
+	            <td class="menu">  <a href="main4.jsp"> 의뢰현황 </a> </td>     
+	        </tr>
+	    </table>
+	</nav >
 
-
-        <!-- Section : 내부에 article 있음-->
-        <section id="section" class="phone" >   
-
-            <article id="article" >
+	<!-- Section : 내부에 article 있음-->
+	<section id="section" class="phone" >   
+	
+	    <article id="article" >
 <!-- 여백  -->
 <div class="white_space"></div>
         
