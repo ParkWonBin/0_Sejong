@@ -2,9 +2,10 @@
 <!DOCTYPE html>
 
 <html lang="ko">
-
-<!--해드 -->
-<%@ include file= "htmltegs/head.jsp" %>
+<head>
+	<!--해드 -->
+	<%@ include file= "htmltegs/head.jsp" %>
+</head>
 
 <body>
 

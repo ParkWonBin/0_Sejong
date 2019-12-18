@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<head>
     <title>SNS 품앗이 v0.01</title>
     
     <link rel="stylesheet" href="main.css" />
@@ -13,4 +12,3 @@
 	<script src="htmltegs/resize.js"></script>
     <script> window.addEventListener('resize',function () { resize("leftBox")}, true);</script>
     
-</head>

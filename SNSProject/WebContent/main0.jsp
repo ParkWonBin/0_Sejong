@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 
 <html lang="ko">
-
-<!--해드 -->
-<%@ include file= "htmltegs/head.jsp" %>
-
+<head>
+	<!--해드 -->
+	<%@ include file= "htmltegs/head.jsp" %>
+</head>
 <body>
 
     <!--해더 -->
@@ -17,13 +17,10 @@
 
             <article id="article">
             
-                <div class="loginBox_Photo">
-                   <img  src="https://placeimg.com/150/150/any" >
-
-                </div>
+                 <div class="loginBox_Photo"><img src="https://placeimg.com/200/200/any" ></div>
                 
                 <div class='loginBox'> <a href="main1.jsp"> <h3>Like Exchanger <br> 좋아요, 팔로우 서비스 </h3> </a> </div>
-                <div class='loginBox'>  <a href="login/login.jsp"> <h3>로그인</h3> </a> </div>
+                <div class='loginBox'>  <a href="login.jsp"> <h3>로그인</h3> </a> </div>
                 <div class='loginBox'> <h4> 로그인 시 약관 동의로 간주 <br> 약관 바로가기 </h4> </div>
 
             </article>
