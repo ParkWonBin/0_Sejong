@@ -36,9 +36,6 @@
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="인스타아이디" name="instaID" maxlength="20">
 					</div>
-					<div class="form-group">
-						<input type="password" class="form-control" placeholder="인스타비밀번호" name="instaPassword" maxlength="20">
-					</div>
 					<input type="submit" class="btn btn-primary form-control" value="회원가입" >
 				</form>
 			</div>    

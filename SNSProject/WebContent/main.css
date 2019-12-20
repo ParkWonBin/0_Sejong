@@ -63,6 +63,7 @@
   .loginBox{ display: block; margin: 10px auto; border: 2px solid gray; padding: 5px; width: 80%; ; text-align: center;}
   .loginBox_Photo{ margin: 20px auto; background-color: gray; border-radius: 50%; height: 200px; width: 200px; overflow: hidden;}
 
+
 /* 의뢰현황 테이블 */
     .Qtable{ display: inline-block;}
     .Qtable_Photo{ background-color:gray;}
@@ -81,8 +82,7 @@
 .MyPageBox{background-color: lightgray; width: 90%; margin: 5px; padding: 10px 5px; display: inline-block; }
 
 
-
-
+.quest_Photo{ margin: 20px auto; background-color: gray; height: 70%; width: 70%; }
 
 
 /* 외부폴터 긁어오기 */
@@ -117,7 +117,6 @@
     
     .btn {
   display: inline-block;
-  width : 80%;
   padding: 6px 12px;
   margin-bottom: 0;
   font-size: 14px;
