@@ -33,4 +33,4 @@ CODE : [하나투어](https://github.com/ParkWonBin/0_Sejong/blob/master/%5BCode
 1. [▶ 신라호텔 자동 로그인](https://docs.google.com/presentation/d/1dTegJiQA-nAG73Tdoc0XXTEpEZ3VL7v1i9pEwyLuwhE/edit#slide=id.g6fe115d332_2_8)
 CODE : [신라호텔](https://github.com/ParkWonBin/0_Sejong/blob/master/%5BCode%5D_03_ShillaHotels_Login_Selenium.ipynb)
 1. [▶ 트립어드바이저](https://docs.google.com/presentation/d/1dTegJiQA-nAG73Tdoc0XXTEpEZ3VL7v1i9pEwyLuwhE/edit#slide=id.g7e50d85d6f_0_165)
-CODE : [트립어드바이저](https://github.com/ParkWonBin/0_Sejong/blob/master/%5BCode%5D_04_Tripadvisor_Reviews_BeautifulSoup.ipynb)
+CODE : [트립어드바이저](https://github.com/ParkWonBin/0_Sejong/blob/master/%5BCode%5D_04_Tripadvisor_Reviews_BeautifulSoup.ipynb)  
